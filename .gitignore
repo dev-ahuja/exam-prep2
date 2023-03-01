@@ -13,6 +13,25 @@ crash.log
 # version control.
 #
 # example.tfvars
+/ADDITIONAL-TOPICS
+#/FUTURE-TOPICS
+#.gitignore
+
+# macOS Files
+.DS_Store
+
+# Ignore .sh files
+#*.sh
+
+# Terraform Files and Folders
+.terraform
+*.tfstate
+*.tfstate.backup
+#.terraform.lock.hcl
+#*.tfvars
+
+# Ignore .pem files
+#*.pem
 
 # Ignore override files as they are usually used to override resources locally and so
 # are not checked in
